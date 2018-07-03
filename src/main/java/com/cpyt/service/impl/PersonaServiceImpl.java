@@ -22,13 +22,11 @@ public class PersonaServiceImpl implements IPersonaService{
 	@Override
 	public void modificar(Persona persona) {
 		dao.save(persona);
-		
 	}
 
 	@Override
 	public void eliminar(int idPersona) {
 		dao.delete(idPersona);
-		
 	}
 
 	@Override
